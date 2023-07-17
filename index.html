@@ -13,9 +13,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Define o conteúdo principal da página -->
     <main class="main-container">
+        <!-- Contém todo o conteúdo principal -->
         <div class="main-content">
+            <!-- Cria a barra de navegação -->
             <div class="navbar">
+                <!-- Cria um link para a página inicial -->
                 <div class="home-main-container">
                     <a class="link-home" href="/">
                         <div class="home-content-container">
@@ -23,6 +27,7 @@
                         </div>
                     </a>
                 </div>
+                <!-- Cria links para diferentes seções da página -->
                 <div class="links-main-container">
                     <a href="#about">Sobre</a>
                     <span class="divider-link">/</span>
@@ -33,25 +38,36 @@
                     <a href="#contact">Contato</a>
                 </div>
             </div>
+            <!-- Cria uma divisória -->
             <div class="divider"></div>
+            <!-- Define a seção de introdução -->
             <section class="introduction">
+                <!-- Contém uma imagem -->
                 <div class="img-container">
                     <img class="introduction-img" src="./src/media/mateus.png" alt="">
                 </div>
+                <!-- Cabeçalho da seção de introdução -->
                 <header class="main-header">
+                    <!-- Contém o nome e a saudação -->
                     <div class="name-container">
                         <span class="introduction-name">Olá, sou Mateus.</span>
                         <span class="material-icons">waving_hand</span>
                     </div>
+                    <!-- Título e descrição da introdução -->
                     <h1 class="introduction-description"><span class="auto-type"></span></h1>
+                    <!-- Link para download do currículo -->
                     <a href="./src/media/cv-mateus.pdf" download>
                         <div class="download-cv">Download CV  <span class="material-icons">download</span></div>
                     </a>
                 </header>
             </section>
+            <!-- Cria uma divisória -->
             <div id="about" class="divider"></div>
+            <!-- Define a seção "Sobre Mim" -->
             <section class="about-main-container">
+                <!-- Título da seção "Sobre Mim" -->
                 <h1 class="about-description header">Sobre Mim</h1>
+                <!-- Contém cartões com informações pessoais -->
                 <div class="card-container">
                     <div class="card card-walking">
                         <div class="card-content">
@@ -60,6 +76,7 @@
                             <span class="card-description">Gosto de passear no tempo livre com minha cachorra.</span>
                         </div>
                     </div>
+                    <!-- ... (outros cartões) -->
                     <div class="card card-games">
                         <div class="card-content">
                             <span class="material-icons card-icon">sports_esports</span>
@@ -76,9 +93,13 @@
                     </div>
                 </div>
             </section>
+            <!-- Cria uma divisória -->
             <div id="courses" class="divider"></div>
+            <!-- Define a seção "Formação" -->
             <section class="courses-main-container">
+                <!-- Título da seção "Formação" -->
                 <h1 class="about-description header">Formação</h1>
+                <!-- Contém cartões com informações educacionais -->
                 <div class="card-container">
                     <div class="card card-walking">
                         <div class="card-content">
@@ -87,6 +108,7 @@
                             <span class="card-description">Bacharel de Eng. de Software na Uninter em andamento.</span>
                         </div>
                     </div>
+                    <!-- ... (outros cartões) -->
                     <div class="card card-games">
                         <div class="card-content">
                             <span class="material-icons card-icon">school</span>
@@ -96,9 +118,13 @@
                     </div>
                 </div>
             </section>
+            <!-- Cria uma divisória -->
             <div id="projects" class="divider"></div>
+            <!-- Define a seção "Projetos" -->
             <section class="projects-main-container">
+                <!-- Título da seção "Projetos" -->
                 <h1 class="projects-description header">Projetos</h1>
+                <!-- Contém cartões com informações de projetos -->
                 <div class="card-container">
                     <div class="card card-rocketseat">
                         <div class="card-content">
@@ -109,9 +135,13 @@
                     </div>
                 </div>
             </section>
+            <!-- Cria uma divisória -->
             <div id="contact" class="divider"></div>
+            <!-- Define a seção "Contato" -->
             <section class="contact-main-container">
+                <!-- Título da seção "Contato" -->
                 <h1 class="contact-description header">Contato</h1>
+                <!-- Formulário de contato -->
                 <form action="https://api.staticforms.xyz/submit" method="post">
                     <input type="hidden" name="accessKey" value="ee13ed30-62b4-42c3-a6e8-de327103b190">
                     <label>Nome</label>
@@ -121,6 +151,7 @@
                     <label>Mensagem</label>
                     <textarea name="message" id="" cols="30" rows="10"></textarea>
                     <button type="submit">Enviar</button>
+                    <!-- Chave de acesso para o envio do formulário -->
                     <input type="hidden" name="redirectTo" value="https://darling-souffle-0952c6.netlify.app/">
                 </form>
             </section>

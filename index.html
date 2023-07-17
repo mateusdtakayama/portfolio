@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateus Delai - Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./src/media/mateus.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main-container">
+        <div class="main-content">
+            <div class="navbar">
+                <div class="home-main-container">
+                    <a class="link-home" href="/">
+                        <div class="home-content-container">
+                            <span class="home-icon material-icons">home</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="links-main-container">
+                    <a href="#about">Sobre</a>
+                    <span class="divider-link">/</span>
+                    <a href="#courses">Formação</a>
+                    <span class="divider-link">/</span>
+                    <a href="#projects">Projetos</a>
+                    <span class="divider-link">/</span>
+                    <a href="#contact">Contato</a>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <section class="introduction">
+                <div class="img-container">
+                    <img class="introduction-img" src="./src/media/mateus.png" alt="">
+                </div>
+                <header class="main-header">
+                    <div class="name-container">
+                        <span class="introduction-name">Olá, sou Mateus.</span>
+                        <span class="material-icons">waving_hand</span>
+                    </div>
+                    <h1 class="introduction-description"><span class="auto-type"></span></h1>
+                    <a href="./src/media/cv-mateus.pdf" download>
+                        <div class="download-cv">Download CV  <span class="material-icons">download</span></div>
+                    </a>
+                </header>
+            </section>
+            <div id="about" class="divider"></div>
+            <section class="about-main-container">
+                <h1 class="about-description header">Sobre Mim</h1>
+                <div class="card-container">
+                    <div class="card card-walking">
+                        <div class="card-content">
+                            <span class="material-icons card-icon">pets</span>
+                            <span class="card-title">Caminhar com Cachorra</span>
+                            <span class="card-description">Gosto de passear no tempo livre com minha cachorra.</span>
+                        </div>
+                    </div>
+                    <div class="card card-games">
+                        <div class="card-content">
+                            <span class="material-icons card-icon">sports_esports</span>
+                            <span class="card-title">Jogar</span>
+                            <span class="card-description">Gosto de jogar no meu tempo livre League of Legends, Assassin's Creed e GTA.</span>
+                        </div>
+                    </div>
+                    <div class="card card-stream">
+                        <div class="card-content">
+                            <span class="material-icons card-icon">desktop_windows</span>
+                            <span class="card-title">Assistir Filmes</span>
+                            <span class="card-description">Assisto a séries no HBO Max, Prime Video e <br> Lives na Twitch.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="courses" class="divider"></div>
+            <section class="courses-main-container">
+                <h1 class="about-description header">Formação</h1>
+                <div class="card-container">
+                    <div class="card card-walking">
+                        <div class="card-content">
+                            <span class="material-icons card-icon">code</span>
+                            <span class="card-title">Engenharia de Software</span>
+                            <span class="card-description">Bacharel de Eng. de Software na Uninter em andamento.</span>
+                        </div>
+                    </div>
+                    <div class="card card-games">
+                        <div class="card-content">
+                            <span class="material-icons card-icon">school</span>
+                            <span class="card-title">Inglês</span>
+                            <span class="card-description">Lingua extrangeira em nível avançados.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="projects" class="divider"></div>
+            <section class="projects-main-container">
+                <h1 class="projects-description header">Projetos</h1>
+                <div class="card-container">
+                    <div class="card card-rocketseat">
+                        <div class="card-content">
+                            <a href="https://mateusdtakayama.github.io/nlw-exploder-esports/"><span class="material-icons card-icon">code</span></a>
+                            <span class="card-title">NLW - RocketSeat</span>
+                            <span class="card-description">Projeto em HTML5 e CSS3.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="contact" class="divider"></div>
+            <section class="contact-main-container">
+                <h1 class="contact-description header">Contato</h1>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="hidden" name="accessKey" value="ee13ed30-62b4-42c3-a6e8-de327103b190">
+                    <label>Nome</label>
+                    <input type="text" name="name" placeholder="Insira seu nome" autocomplete="off">
+                    <label>E-mail</label>
+                    <input type="email" name="email" placeholder="Insira seu e-mail" autocomplete="off">
+                    <label>Mensagem</label>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                    <button type="submit">Enviar</button>
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+                </form>
+            </section>
+            <div class="divider"></div>
+            <footer class="main-footer">
+                <span>@ 2023 All rights reserved.</span>
+                <nav class="links-main-container">
+                    <a target="_blank" href="https://www.linkedin.com/in/mateusdtakayama/">Linkedin</a>
+                    <span class="divider-link">/</span>
+                    <a target="_blank" href="https://github.com/mateusdtakayama">Github</a>
+                    <span class="divider-link">/</span>
+                    <a target="_blank" href="https://www.instagram.com/delai_mateus/">Instagram</a>
+                </nav>
+            </footer>
+        </div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
